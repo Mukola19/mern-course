@@ -4,7 +4,7 @@
   "description": "Mern stack",
   "main": "app.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=prodaction node app.js",
+    "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
     "client:install": "npm install --prefix client",
@@ -19,6 +19,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
     "jsonwebtoken": "^8.5.1",

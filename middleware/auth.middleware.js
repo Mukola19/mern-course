@@ -14,7 +14,7 @@ module.exports = (req, res, next) => {
       return res.status(401).json({ message: 'Немає авторизації' })
     }
 
-    const decoded = jwt.verify(token, config.get('jwtSecret'))
+    const decoded = jwt.verify(token, process.env.JWT_SECRET)
     req.user = decoded
     next()
   } catch (e) {

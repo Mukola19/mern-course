@@ -1,6 +1,0 @@
-{
-    "jwtSecret": "miller mukola react",
-    "port":5000, 
-    "mongoURL":"  mongodb+srv://miller_mukola:7C6kMRwyir87EJY@cluster0.9bj4g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "baseUrl":"http://localhost:5000"
-}

@@ -1,6 +1,5 @@
 {
-  "homepage": "http://Mukola19.github.io/react-youtybe",
-  "name": "react-youtybe",
+  "name": "mern-course",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +31,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy":"http://localhost:5000", 
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
